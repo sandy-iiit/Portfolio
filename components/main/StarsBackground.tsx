@@ -1,6 +1,8 @@
 "use client"
 import React, {useRef, useState, Suspense} from "react"
-import * as random from 'maath/random/dist/maath-random.esm'
+// @ts-ignore
+import * as random from 'maath/random/dist/maath-random.esm';
+
 import {Canvas, useFrame} from "@react-three/fiber";
 import {PointMaterial, Points} from "@react-three/drei";
 const StarsBackground=(props:any)=>{
