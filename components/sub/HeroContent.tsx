@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import {slideInFromLeft, slideInFromRight, slideInFromTop} from "@/utils/motion";
-import { useClient } from 'next/client';
 import { useSpring, animated } from 'react-spring';
 import Image from "next/image";
 import Link from "next/link";
@@ -42,7 +41,7 @@ const HeroContent = () => {
                     className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
                 >
                     <SparklesIcon className={"text-[#b49bff] mr-[10px] h-5 w-5"} />
-                    <h1 className={"Welcome-text text-[13px]"}>Datta Sandeep's Portfolio</h1>
+                    <h1 className={"Welcome-text text-[13px]"}>Datta Sandeep&apos Portfolio</h1>
                 </motion.div>
 
                 <motion.div
