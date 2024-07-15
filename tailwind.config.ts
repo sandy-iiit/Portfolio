@@ -1,3 +1,25 @@
+// import type { Config } from "tailwindcss";
+//
+// const config: Config = {
+//   content: [
+//     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+//     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+//     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+//   ],
+//   theme: {
+//     extend: {
+//       backgroundImage: {
+//         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+//         "gradient-conic":
+//           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+//       },
+//     },
+//   },
+//   plugins: [],
+// };
+// export default config;
+// tailwind.config.js
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -11,10 +33,19 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+            "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      scale: {
+        '115': '1.10',
+      },
+    },
+  },
+  variants: {
+    extend: {
+      scale: ['hover'], // Enable scale variant for hover
     },
   },
   plugins: [],
 };
+
 export default config;
