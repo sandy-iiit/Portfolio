@@ -160,6 +160,18 @@ export const Frontend_skill = [
 
 export const Backend_skill = [
     {
+        skill_name: "Spring",
+        Image: "/spring.png",
+        width: 70,
+        height: 70,
+    },
+    {
+        skill_name: "Spring Boot",
+        Image: "/spring-boot.png",
+        width: 70,
+        height: 70,
+    },
+    {
         skill_name: "Node js",
         Image: "/node-js.png",
         width: 80,
@@ -195,12 +207,7 @@ export const Backend_skill = [
         width: 70,
         height: 70,
     },
-    {
-        skill_name: "Spring Boot",
-        Image: "/spring.png",
-        width: 70,
-        height: 70,
-    },
+
     {
         skill_name: "Django",
         Image: "/django.png",
@@ -210,12 +217,6 @@ export const Backend_skill = [
     {
         skill_name: "Graphql",
         Image: "/graphql.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Microservices",
-        Image: "/microservices.png",
         width: 80,
         height: 80,
     },
