@@ -26,7 +26,7 @@ const SkillDataProvider=({src,width,height,index}:Props)=>{
             initial="hidden"
             variants={imageVariants}
             animate={inView?"visible":"hidden"}
-            transitionDelay={{delay:index*animationDelay}}
+            transition={{delay:index*animationDelay}}
             custom={index}
         >
             <Image
