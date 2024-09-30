@@ -28,7 +28,7 @@ const Projects = () => {
                 />
                 <ProjectCard
                     src="/portfolio.png"
-                    title="Portfolio App using NextJS Framer motion Tailwin CSS"
+                    title="Portfolio App using NextJS Framer motion Tailwind CSS"
                     description="This app is developed using NextJS framework,Framer motion for animations along with three.js and Tailwind CSS."
                     link="https://github.com/sandy-iiit/EcommerceApp-Spring-Angular"
 
