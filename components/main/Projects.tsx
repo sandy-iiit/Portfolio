@@ -15,8 +15,15 @@ const Projects = () => {
                 <ProjectCard
                     src="/microservices.png"
                     title="MicroServices using Springboot,Eureka,Zipkins"
-                    description="This is a currency conversion micro-services app which is developed on the lines of circuit breaker design pattern.It is developed using"
+                    description="This is a currency conversion micro-services app which is developed on the lines of circuit breaker resiliency pattern."
                     link="https://github.com/sandy-iiit/Spring-microservices-Eureka-Zipkins"
+
+                />
+                <ProjectCard
+                    src="/microservices2.png"
+                    title="Inventory management microservice app using Java,Springboot,Grafana Loki,Prometheus,Kafka"
+                    description="This is an inventory management microservice application which uses Grafana Loki,Prometheus for monitoring the microservices and Kafka for the sending notifications through notification service. "
+                    link="https://github.com/sandy-iiit/Microservices-Prometheus-Zipkins-Kafka"
 
                 />
                 <ProjectCard
@@ -41,12 +48,19 @@ const Projects = () => {
 
                 />
                 <ProjectCard
-                    src="/Food-Ordering-App.png"
-                    title="Food-Ordering-App using React"
-                    description="A simple food ordering app interface developed using React."
-                    link="https://github.com/sandy-iiit/FoorOrderApp-React"
+                    src="/webrtc.png"
+                    title="ReactReal-Time Communication Backend with Go,Fiber and WebRTC"
+                    description="This is an video chat application which uses webrtc,sockets along with the fiber framework of golang."
+                    link="https://github.com/sandy-iiit/Go-WebRTC-app"
 
                 />
+                {/*<ProjectCard*/}
+                {/*    src="/Food-Ordering-App.png"*/}
+                {/*    title="Food-Ordering-App using React"*/}
+                {/*    description="A simple food ordering app interface developed using React."*/}
+                {/*    link="https://github.com/sandy-iiit/FoorOrderApp-React"*/}
+
+                {/*/>*/}
             </div>
 
         </div>
