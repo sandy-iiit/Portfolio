@@ -113,7 +113,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const HeroContent = () => {
-    const phrases = ["Full Stack Developer", "Backend Developer", "Frontend Developer", "DevOps Learner"];
+    const phrases = ["Full Stack Developer", "Backend Developer", "Frontend Developer", "DevOps Enthusiast","Cloud Developer"];
     const [index, setIndex] = useState(0);
 
     // Function to rotate phrases
@@ -189,7 +189,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(1)}
                     className={"py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"}
                 >
-                    <Link href="https://drive.google.com/file/d/1BVrPSg9T-K1huHbbYQqPL8VsXiSSkWww/view?usp=sharing" passHref>
+                    <Link href="https://drive.google.com/file/d/1mFf5zQwrCpyF7U4WPBX4xBlYuvp-3874/view?usp=sharing" passHref>
                         Resume!
                     </Link>
                 </motion.p>
